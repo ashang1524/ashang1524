@@ -1,0 +1,13 @@
+*.aux
+*.fbd_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.png
+*.jpg
+*.cpp
+__latexindent_temp.tex
+a.out.dSYM
+.vscode
+__latexindent_temp.tex
