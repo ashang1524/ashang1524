@@ -449,14 +449,22 @@ int count_filled_nodes(const Node<T> * node) {
 
 \begin{enumerate}[(a)]
   \item A subtree of a red-black tree is itself a red-black tree.
+  
+  This is false because at any given red node, there cannot be a consecutive red node. Red nodes cannot have children, so at the worst case the number of nodes alternate in red and black order.
 
   \item The sibling of an external node is either external or red.
+  
+  This is true. An external node is such node that's null. This external node has to be black to begin with, as all external nodes are black. However, when calculating depth, all external nodes must have the same depth. If there were a black node that follows the original external node, this would break the depth rule. Thus, it can be possible for the sibling of an external node to be red as well.
 
 
   \item There is a unique 2-4 tree associated with a given red-black tree.
+  
+  This is true. There can be 2, 3, or 4 nodes in a 2-4 tree. For 2 nodes, we can have 2 pointers with 1 data element, which in that case is simply a node with no children. Likewise for 3 and 4 nodes, a red black tree with 1 and 2 red children respectively, satisfies this.
 
 
   \item There is a unique red-black tree associated with a given 2-4 tree.
+  
+  This is false. While this applies for even numbered nodes, for a 3 node, this can be implemented in 2 seperate ways: black, red, black and red, black, red.
 
 \end{enumerate}
 
@@ -482,9 +490,9 @@ $-\infty$ &  & 12    &  & 17    &  & ----- &  & 38    &  & 42    &  & $+\infty$\
 $-\infty$ &  & 12    &  & 17    &  & 20    &  & 38    &  & 42    &  & $+\infty$\tabularnewline
 \end{tabular} \bigskip
 
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[width=0.5\linewidth]{./image.jpg}
-% \end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{q7.jpg}
+\end{figure}
 
 \end{document}
