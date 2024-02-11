@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Andrew Shang</h1>
-<h3 align="center">prev @ state farm, cs @ tamu</h3>
+<h3 align="center">current @ state farm, cs @ tamu</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ashang1524&label=Profile%20views&color=0e75b6&style=flat" alt="ashang1524" /> </p>
 
-- 🔭 I’m currently working on **a pay it forward tutoring platform.**
+- 🔭 I’m currently working on nothing, give me ideas!
 
 - 🌱 I’m currently learning **typescript**
 
