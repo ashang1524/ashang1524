@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **typescript**
 
-- 📫 How to reach me **ashang1524@gmail.com**
+- 📫 How to reach me **ashang1524@utexas.edu**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
